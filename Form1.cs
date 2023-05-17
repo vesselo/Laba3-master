@@ -15,7 +15,8 @@ namespace Laba3_TP
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            gr = new v4();
+            DrawGraph();
         }
 
         private void button2_Click(object sender, EventArgs e)
