@@ -28,7 +28,8 @@ namespace Laba3_TP
         }
         public static void ReadExcel()
         {
-            workBook = new WorkBook("C:\\Users\\fallo\\OneDrive\\Desktop\\suai exams\\second year\\4 семестр\\тп\\Naselenie.xlsx");
+            string path = Environment.CurrentDirectory + "\\Naselenie.xlsx";
+            workBook = new WorkBook(path);
             workSheet = workBook.WorkSheets.First();
         }
         public void SetData()
