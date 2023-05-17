@@ -77,6 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IGraph.cs" />
+    <Compile Include="v4.cs" />
     <Compile Include="v5.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
